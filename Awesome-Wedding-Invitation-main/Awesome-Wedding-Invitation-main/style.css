@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.header h3 {
+  margin: 0;
+  color: #000000;
+  font-family: monospace;
+  font-style: italic;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.image-container img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bride-groom-names {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+.audio-container {
+  text-align: center;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.countdown-container {
+  text-align: center;
+  padding: 20px;
+  background-color: whitesmoke;
+  font-weight: bold;
+}
+
+.photo-section {
+  padding: 20px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.photo img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.event-section {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.event img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.event-info {
+  flex-grow: 1;
+}
+
+.map-container {
+  text-align: center;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+#map {
+  width: 100%;
+}
+
+.bride-groom-info-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.bride-groom-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bride-groom-info img {
+  width: 45%;
+  border-radius: 5px;
+}
+
+.bride-info,
+.groom-info {
+  width: 45%;
+  padding: 0 10px;
+}
+
+.bride-info p,
+.groom-info p {
+  margin: 5px 0;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .image-container {
+    padding: 20px 0;
+    background-color: whitesmoke;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .photo {
+    width: 100%;
+  }
+
+  .bride-groom-info-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bride-groom-info img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .bride-info,
+  .groom-info {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.contact-section {
+  text-align: center;
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.contact-section h2 {
+  color: #333;
+}
+
+.contact-section p {
+  margin: 5px 0;
+}
+
+.footer {
+  background-color: #333;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+}
+.countdown-box {
+  display: inline-block;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  color: #a45d1e;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  transition: transform 0.3s ease;
+  border: 2px solid #27999b;
+}
+
+.countdown-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}

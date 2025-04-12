@@ -1,0 +1,572 @@
+<html lang="en"><head>
+
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neha ♥️ Shubham</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&amp;display=swap">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: whitesmoke; /* Cream color */
+      color: #333;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+
+    .header h3 {
+      margin: 0;
+      color: #000000;
+      font-family: monospace;
+      font-style: italic;
+    }
+
+    .image-container {
+      position: relative;
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    .image-container img {
+      width: 100%;
+      opacity: 0.5; /* Reduced opacity for the image */
+    }
+
+    .image-container2 img {
+      width: 100%;
+      opacity: 1; /* Reduced opacity for the image */
+    }
+
+    .image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .bride-groom-names {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      color: #0e0e0e;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-family: cursive;
+      font-weight: bolder;
+    }
+
+    .audio-container {
+      text-align: center;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+
+    .countdown-container {
+      text-align: center;
+      padding: 20px;
+      background-color: whitesmoke;
+      font-weight: bold;
+    }
+
+    .photo-section {
+      padding: 20px;
+      background-color: whitesmoke;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .photo {
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+    }
+
+    .photo img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .event-section {
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+
+    .event {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .event img {
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+
+    .event-info {
+      flex-grow: 1;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .map-container {
+      text-align: center;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+
+    #map {
+      width: 100%;
+    }
+
+    .bride-groom-info-section {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: whitesmoke;
+    }
+
+    .bride-groom-info {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .bride-groom-info img {
+      width: 45%;
+      border-radius: 5px;
+    }
+
+    .bride-info,
+    .groom-info {
+      width: 45%;
+      padding: 0 10px;
+    }
+
+    .bride-info p,
+    .groom-info p {
+      margin: 5px 0;
+    }
+
+    /* Adjustments for mobile */
+    @media (max-width: 768px) {
+      .image-container {
+        padding: 20px 0;
+        background-color: whitesmoke;
+      }
+
+      .image-container img {
+        width: 100%;
+        height: auto;
+      }
+
+      .photo {
+        width: 100%;
+      }
+
+      .bride-groom-info-section {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .bride-groom-info img {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .bride-info,
+      .groom-info {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+      }
+    }
+
+    .contact-section {
+      text-align: center;
+      padding: 20px;
+      background-color: whitesmoke;
+      background-image: url("photos/bride.jpg");
+    
+    }
+
+    .contact-section h2 {
+      color: #333;
+    }
+
+    .contact-section p {
+      margin: 5px 0;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #333;
+      color: whitesmoke;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h3>
+      You're Invited!
+     
+    </h3>
+    <h3>
+      ❤️Join us in celebrating our special day❤️
+     
+    </h3>
+
+    <div class="event">
+       <div style="color: purple" class="event-info">
+      </div>
+    </div>
+    <h3>
+      Shubham ❤️ Neha
+    
+   </h3>
+  </div>
+
+  <div class="image-container">
+    <img src="photos/img.jpg" alt="Bride and Groom">
+    <div class="image-overlay"></div>
+    <div class="bride-groom-names">Neha ♥️ Shubham</div>
+  </div>
+
+  <div class="header">
+    <h3>
+      Two hearts, one love, a lifetime of happiness. We are thrilled to invite you to join us as we begin our forever.
+    </h3>
+  </div>
+
+  <div class="audio-container">
+    <audio autoplay loop>
+      <source src="photos/song.mpeg" type="audio/mpeg">
+    </audio>
+  </div>
+  <div style="
+      text-align: center;
+      font-family: cursive;
+      font-size: large;
+      font-weight: bold;
+      background-color: whitesmoke;
+      color: rgb(185, 72, 27);
+    ">
+    Cherished Bride👸 &amp; Beloved Groom🤴
+  </div>
+  <div class="bride-groom-info-section">
+    <div class="bride-groom-info">
+      <div class="bride-info">
+        <img src="photos/bride.jpg" alt="Bride Photo">
+        <p><strong>Neha</strong></p>
+        <p>Satish Biradar's beloved daughter</p>
+      </div>
+      
+      <div style="margin: 0 10px"></div>
+      <div class="groom-info">
+        <img src="photos/groom.jpg" alt="Groom Photo">
+        <p><strong>Shubham</strong></p>
+        <p>Ramakant Hude's cherished son</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="countdown-container">
+    <h2 style="color: #295dac;">⏳Time Left Until Big Day⏳</h2>
+    <div class="countdown-box" style="color: #a91352;" id="timer">Loading...</div>
+  </div>
+  
+
+  <div style="padding: 20px; background-color: whitesmoke" class="first-meeting-experience">
+    <br><br>
+    <span style="font-size: large; font-weight: bold; color: rgb(90, 57, 143);padding-left: 110px;"> ♥️ First Meet ♥️
+    </span>
+    <br><br>
+    <div class="photo">
+      <img src="photos/firstMeet.jpg" alt="Photo 1" loading="lazy">
+    </div>
+    <hr style="background-color: #000000">
+  </div>
+
+  <div class="photo-section">
+    <h2>Cherished Snapshots 📸</h2>
+    <div class="photo">
+      <img src="photos/DSC04482.jpg" alt="Photo 1" loading="lazy">
+    </div>
+    <div class="photo">
+      <img src="photos/DSC04841.jpg" alt="Photo 2">
+    </div>
+    <div class="photo">
+      <img src="photos/DSC04871.jpg" alt="Photo 3">
+    </div>
+    <div class="photo">
+      <img src="photos/7Y6A9543.JPG" alt="Photo 3">
+    </div>
+  </div>
+
+
+
+  <div class="invie-section">
+    <h2 style="padding-left: 110px; color: rgb(158, 20, 43)" > !!Yours faithfully!!</h2>
+    <p style="font-weight: bold; padding-left: 80px">Mr.& Mrs. :- Premla Ramakant Hude  </p>
+    <div class="event"></div>
+    <div class="event">
+      <img src="photos/kakamummy.JPG" alt="Haldi Logo" width="110" height="110">
+      <div style="color: #151515" class="event-info">
+       
+        <p style="font-weight: bold;">"From the hearts of loving parents</p>
+         <p style="font-weight: bold;"> as we watch our son take his </p>
+          <p style="font-weight: bold;">biggest step,we invite you to join us </p>
+          <p style="font-weight: bold;">  in celebrating the beginning of his </p>
+          <p style="font-weight: bold;"> new journey."</p>
+        
+      </div>
+  </div>
+
+  <div class="event-section">
+    <h2 style="color: purple">Wedding Events</h2>
+    <div class="event"></div>
+    
+    <div class="event">
+      <img src="photos/il_570xN.4720951375_7bv1.webp" alt="Sangeet Logo" width="100" height="100">
+      <div style="color: purple" class="event-info">
+        <h1>Sangeet</h1>
+        <p>Date: 09th May 2024</p>
+        <p>Time: 06:00 PM</p>
+        <p>Location: Om Garden & Function Hall</p>
+      </div>
+    </div>
+  
+     <div class="event">
+      <img src="photos/haldicoup.jpg" alt="Haldi Logo" width="100" height="100">
+      <div style="color: #eebe22" class="event-info">
+        <h1>Haldi</h1>
+        <p>Date: 09th May 2025</p>
+        <p>Time: 09:00 PM</p>
+        <p>Location: Om Garden & Function Hall</p>
+      </div>
+    </div>
+    <div class="event">
+      <img src="photos/weddingphoto.avif" alt="Wedding Logo" width="100 " height="100">
+      <div style="color: rgb(160, 49, 84)" class="event-info">
+        <h1>Wedding</h1>
+        <p>Date: 10th May 2025</p>
+        <p>Time: 12:30 PM</p>
+        <p>Location: Om Garden & Function Hall</p>
+        <a href="https://www.google.com/maps/place/18%C2%B022'26.6%22N+77%C2%B006'51.6%22E/@18.3740545,77.1143195,17z/data=!3m1!4b1!4m4!3m3!8m2!3d18.3740545!4d77.1143195?entry=ttu&g_ep=EgoyMDI1MDQwOC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" target="_blank">📍 View on Google Maps</a>
+      </div>
+    </div>
+  </div>
+  <div style="padding: 20px; background-color: whitesmoke" class="first-meeting-experience">
+    <p style="font-family: 'Georgia', serif; font-size: 18px; line-height: 1.8; color: #6b130c; padding: 20px; text-align: center;">
+      "Love is not just a feeling, it's a beautiful journey — one that begins with a single step and leads to forever.  
+      On <strong>10th May 2025</strong>, we take that magical step together, hand in hand, heart with heart.  
+      With immense joy and overflowing gratitude, we invite you to witness the beginning of our forever —  
+      a day filled with love, laughter, and the promise of a lifetime.  
+      Your presence will make our celebration truly complete as we unite in love and begin this beautiful chapter of togetherness."  
+    </p>
+    <hr style="background-color: #000000">
+  </div>
+
+
+
+  <div class="event-section">
+    <h2 style="color: rgb(13, 66, 122)">📞 Contact Details :-</h2>
+    <div class="event"></div>
+    <div class="event">
+      <img src="photos/rama.png" alt="Wedding Logo" width="100 " height="100">
+      <div style="color: rgb(13, 12, 12)" class="event-info">
+        <h3 padding: 100px>Please Contact</h3>
+        <p padding:100px color: #2c3e50>Ramakant Hude</p>
+        <p>9923010696</p>
+        <p>Location: Om Garden & Function Hall</p>
+        </div>
+    </div>
+    <div class="event"></div>
+    <div class="event">
+      <img src="photos/amolHude.jpeg" alt="Wedding Logo" width="100 " height="100">
+      <div style="color: rgb(13, 12, 12)" class="event-info">
+        <h3 padding: 100px>Please Contact</h3>
+        <p padding:100px color: #2c3e50>Amol Hude</p>
+        <p>9766598781</p>
+        <p>Location: Om Garden & Function Hall</p>
+        </div>
+    </div>
+    </div>
+  </div>
+  
+  <div class="image-container">
+    
+    <h2>📞 Please Contact 📞</h2>
+    
+    <p><strong>Ramakant Hude</strong></p>
+    <p>9923010696</p>
+  </div>
+
+    <br></br>
+    
+  </div>
+  
+  <style>
+    .square-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 0 !important;
+    }
+  </style>
+  
+  
+  <div class="image-container">
+    <h2>📞 Please Contact 📞</h2>
+    <p><strong>Amol Hude</strong></p>
+    <p>8208375344</p>
+  </div>
+  <div class="countdown-container">
+    <h2 style="color:rgb(190, 69, 62);">If you're unable to attend, please join us online  💻 </h2>
+    <div style="text-align: center; margin: 30px 0;">
+      <a href="https://drive.google.com/drive/folders/12IM1wBmOtXwOwiJhHYaIbbk8204vszaH" target="_blank" style="
+        display: inline-block;
+        background-color: #5e96a0;
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+      " onmouseover="this.style.backgroundColor='#732d91'" onmouseout="this.style.backgroundColor='#8e44ad'">
+        💻 click here to join our celebration online!
+      </a>
+    </div>
+     <h2 style="color:rgb(190, 69, 62);">Wedding Album 📸 </h2>
+    <p style="color:rgb(64, 105, 84);">"Relive the beautiful moments we shared"</p>
+    <div style="text-align: center; margin: 30px 0;">
+      <a href="https://drive.google.com/drive/folders/12IM1wBmOtXwOwiJhHYaIbbk8204vszaH" target="_blank" style="
+        display: inline-block;
+        background-color: #5e96a0;
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+      " onmouseover="this.style.backgroundColor='#732d91'" onmouseout="this.style.backgroundColor='#8e44ad'">
+        📸 click here to view your cherished memories!
+      </a>
+    </div> <h2 class="blinking-text"> 📍 Wedding Spot 📍</h2>
+
+    <style>
+      .blinking-text {
+        animation: blink 1s infinite;
+        color: #c0392b;
+      }
+    
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+    
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3786.4127874723367!2d77.11432!3d18.374055!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfaa0f635d697d%3A0x96a2aefbcf11905b!2sOm%20Garden%20and%20Function%20Hall!5e0!3m2!1sen!2sin!4v1744401409641!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+  <div class="image-container">
+    <img src="photos/last.jpg" alt="Bride and Groom">
+    <div class="image-overlay"></div>
+    <div class="bride-groom-names">Neha &amp; Shubham</div>
+    <div style="
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+        color: #000000;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-family: cursive;
+        font-weight: 700;
+      ">
+      10 May 2025
+    </div>
+  </div>
+
+  <div class="image-container2">
+    <img src="photos/logo.jpeg" alt="Bride and Groom">
+    
+    <div style="
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+        color: #000000;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-family: cursive;
+       
+      ">
+    </div>
+  </div>
+  <div class="footer">
+    Copyright © 2025 Shubham Hude. Powered by Shubham.
+    
+  </div>
+<script>
+  const eventDate = new Date("2025-04-12T00:00:00");
+  const endDate = new Date("2025-05-11T00:00:00"); // End of wedding day
+  const timerElement = document.getElementById("timer");
+
+  function updateCountdown() {
+    const now = new Date();
+
+    if (now >= eventDate && now < endDate) {
+      timerElement.innerHTML = "It's our wedding day!!!";
+      return;
+    }
+
+    if (now >= endDate) {
+      timerElement.innerHTML = "On 10th May 2025, we tied the knot and began our forever Thank you from the bottom of our hearts for being a part of our special day Your love, blessings, and presence made it truly unforgettable! ❤️";
+
+
+      return;
+    }
+
+    const timeLeft = eventDate - now;
+    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
+    const seconds = Math.floor((timeLeft / 1000) % 60);
+
+    timerElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+</script>
+
+  
+
+
+
+</body></html>
